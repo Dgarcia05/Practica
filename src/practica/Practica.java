@@ -10,14 +10,19 @@ public class Practica {
 		int[] prodArray = {6, 8, 20, 23, 12};
 		
 		// User 1 fer la suma dels elements de sumArray
+		int total = 0;
 		
+		for (int i = 0; i < sumArray.length; i++) {
+			total += sumArray[i];
+		}
 		
+		System.out.println("El total es: " + total);
 		
 		// User 2 fer la resta dels elements de subArray
 		
 		
 		
-		// User 3 fer la multiplicació dels elements de prodArray
+		// User 3 fer la multiplicació dels elements de prodArray 
 	}
 
 }
