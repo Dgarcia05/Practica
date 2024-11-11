@@ -18,19 +18,6 @@ public class Practica {
 		
 		
 		// User 3 fer la multiplicació dels elements de prodArray
-		int total = 1;
-		for(int i = 0; i<prodArray.length;i++){
-			if(prodArray[i]!=0){
-				 total = (prodArray[i] * total);
-				
-			}
-		}
-		
-			
-			System.out.println(total);
-		
-		
-		
 	}
 
 }
