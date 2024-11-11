@@ -15,7 +15,11 @@ public class Practica {
 		
 		// User 2 fer la resta dels elements de subArray
 		
-		
+		int subResult = subArray[0];
+		for (int i = 1; i < subArray.length; i++) {
+			subResult -= subArray[i];
+		}
+		System.out.println("Resta de los elementos de subArray: " + subResult);
 		
 		// User 3 fer la multiplicació dels elements de prodArray
 	}
